@@ -6,4 +6,12 @@
 //  Copyright © 2020 OLAJUWON BALOGUN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIViewController{
+    
+    static var storyboardIdentifier: String{
+        return String(describing: self)
+    }
+    
+}

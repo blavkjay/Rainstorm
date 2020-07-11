@@ -6,4 +6,13 @@
 //  Copyright © 2020 OLAJUWON BALOGUN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIStoryboard{
+    
+    //MARK: - Static properties
+    
+    static var main: UIStoryboard{
+        return UIStoryboard(name: "Main", bundle: Bundle.main)
+    }
+}

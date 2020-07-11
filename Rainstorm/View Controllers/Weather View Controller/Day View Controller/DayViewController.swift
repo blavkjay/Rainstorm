@@ -1,5 +1,5 @@
 //
-//  WeekViewController.swift
+//  DayViewController.swift
 //  Rainstorm
 //
 //  Created by OLAJUWON BALOGUN on 11/07/2020.
@@ -8,21 +8,17 @@
 
 import UIKit
 
-class WeekViewController: UIViewController {
+final class DayViewController: UIViewController {
 
-    
-    //MARK: - view life cycle
+    //MARK: - View Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // setup view
         setUpView()
     }
-    
+
     //MARK: - Helper method
     private func setUpView(){
         //configure view
-        view.backgroundColor = .red
+        view.backgroundColor = .green
     }
-
 }

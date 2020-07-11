@@ -20,7 +20,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57" y="118"/>
+            <point key="canvasLocation" x="-784" y="75"/>
+        </scene>
+        <!--Day View Controller-->
+        <scene sceneID="XHO-Ki-Hk8">
+            <objects>
+                <viewController storyboardIdentifier="DayViewController" id="zuv-3n-G2o" customClass="DayViewController" customModule="Rainstorm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cMc-nG-xn7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1y7-ad-QVN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Go-ih-5jV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81" y="75"/>
+        </scene>
+        <!--Week View Controller-->
+        <scene sceneID="Dn7-Li-JPm">
+            <objects>
+                <viewController storyboardIdentifier="WeekViewController" id="UHE-wx-BO0" customClass="WeekViewController" customModule="Rainstorm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YEN-MW-MSq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="P9B-B9-zqZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFq-qy-l1R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="76"/>
         </scene>
     </scenes>
 </document>
