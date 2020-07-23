@@ -12,7 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -35,3 +35,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+extension AppDelegate{
+    static var standard: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+}
+
+func getWindow() -> UIWindow?{
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+       if #available(iOS 13, *) {
+           let scenceDelegate =  UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+           return scenceDelegate?.window
+       }
+       return appDelegate?.window
+}
+@discardableResult
+func changeRootViewController(storyboardId: String) -> UIViewController {
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let initialVC = storyboard.instantiateViewController(withIdentifier: storyboardId)
+    let navigationController = UINavigationController(rootViewController: initialVC)
+    getWindow()?.rootViewController = navigationController
+    getWindow()?.makeKeyAndVisible()
+    return initialVC
+}

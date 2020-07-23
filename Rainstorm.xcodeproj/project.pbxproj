@@ -17,7 +17,42 @@
 		4C93C13A24B9F8BF0076ED91 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C13924B9F8BF0076ED91 /* WeekViewController.swift */; };
 		4C93C13D24B9FA4A0076ED91 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C13C24B9FA4A0076ED91 /* UIViewController+Extension.swift */; };
 		4C93C13F24B9FACE0076ED91 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C13E24B9FACE0076ED91 /* UIStoryboard+Extension.swift */; };
+		4C93C14224BA0D300076ED91 /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C14124BA0D300076ED91 /* WeatherRequest.swift */; };
+		4C93C14524BA0ECF0076ED91 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C14424BA0ECF0076ED91 /* Configuration.swift */; };
+		4C93C14824BA20380076ED91 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C14724BA20380076ED91 /* RootViewModel.swift */; };
+		4C93C14B24BADCB60076ED91 /* DarkSkyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C14A24BADCB60076ED91 /* DarkSkyResponse.swift */; };
+		4C93C14E24BAED4A0076ED91 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93C14D24BAED4A0076ED91 /* WeatherData.swift */; };
+		4CDBD63D24C733B80021D66D /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD63C24C733B70021D66D /* DayViewModel.swift */; };
+		4CDBD64024C7347F0021D66D /* WeekViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD63F24C7347F0021D66D /* WeekViewModel.swift */; };
+		4CDBD64224C7A1D70021D66D /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD64124C7A1D70021D66D /* Style.swift */; };
+		4CDBD64424C7A95B0021D66D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD64324C7A95A0021D66D /* UIImage+Extension.swift */; };
+		4CDBD65624C813990021D66D /* DayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD65524C813990021D66D /* DayViewModelTests.swift */; };
+		4CDBD65924C814FD0021D66D /* darksky.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBD65824C814FD0021D66D /* darksky.json */; };
+		4CDBD65C24C8157C0021D66D /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD65B24C8157C0021D66D /* XCTestCase.swift */; };
+		4CDBD65F24C8268F0021D66D /* WeekDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD65E24C8268E0021D66D /* WeekDayTableViewCell.swift */; };
+		4CDBD66124C830570021D66D /* WeekDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66024C830570021D66D /* WeekDayViewModel.swift */; };
+		4CDBD66424C833750021D66D /* WeekDayRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66324C833750021D66D /* WeekDayRepresentable.swift */; };
+		4CDBD66824C83AC90021D66D /* WeekViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66724C83AC90021D66D /* WeekViewModelTests.swift */; };
+		4CDBD66A24C83CDE0021D66D /* WeekDayViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66924C83CDE0021D66D /* WeekDayViewModelTest.swift */; };
+		4CDBD66C24C8570A0021D66D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66B24C8570A0021D66D /* Location.swift */; };
+		4CDBD66E24C858040021D66D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD66D24C858030021D66D /* LocationService.swift */; };
+		4CDBD67124C85A160021D66D /* LocationManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67024C85A160021D66D /* LocationManagers.swift */; };
+		4CDBD67324C8A8510021D66D /* RootViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67224C8A8510021D66D /* RootViewModelTests.swift */; };
+		4CDBD67624C8A9450021D66D /* MockLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67524C8A9450021D66D /* MockLocationService.swift */; };
+		4CDBD67824C8EEE20021D66D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67724C8EEE20021D66D /* NetworkService.swift */; };
+		4CDBD67A24C8EF7C0021D66D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67924C8EF7C0021D66D /* NetworkManager.swift */; };
+		4CDBD67C24C8F0F00021D66D /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBD67B24C8F0F00021D66D /* MockNetworkService.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDBD64E24C80F2E0021D66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C93C10F24B9DDD60076ED91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C93C11624B9DDD60076ED91;
+			remoteInfo = Rainstorm;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4C93C11724B9DDD60076ED91 /* Rainstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,10 +67,44 @@
 		4C93C13924B9F8BF0076ED91 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
 		4C93C13C24B9FA4A0076ED91 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		4C93C13E24B9FACE0076ED91 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		4C93C14124BA0D300076ED91 /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		4C93C14424BA0ECF0076ED91 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		4C93C14724BA20380076ED91 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		4C93C14A24BADCB60076ED91 /* DarkSkyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyResponse.swift; sourceTree = "<group>"; };
+		4C93C14D24BAED4A0076ED91 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		4CDBD63C24C733B70021D66D /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
+		4CDBD63F24C7347F0021D66D /* WeekViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewModel.swift; sourceTree = "<group>"; };
+		4CDBD64124C7A1D70021D66D /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		4CDBD64324C7A95A0021D66D /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		4CDBD64924C80F2E0021D66D /* RainstormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainstormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDBD64D24C80F2E0021D66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDBD65524C813990021D66D /* DayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModelTests.swift; sourceTree = "<group>"; };
+		4CDBD65824C814FD0021D66D /* darksky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = darksky.json; sourceTree = "<group>"; };
+		4CDBD65B24C8157C0021D66D /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
+		4CDBD65E24C8268E0021D66D /* WeekDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayTableViewCell.swift; sourceTree = "<group>"; };
+		4CDBD66024C830570021D66D /* WeekDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayViewModel.swift; sourceTree = "<group>"; };
+		4CDBD66324C833750021D66D /* WeekDayRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayRepresentable.swift; sourceTree = "<group>"; };
+		4CDBD66724C83AC90021D66D /* WeekViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewModelTests.swift; sourceTree = "<group>"; };
+		4CDBD66924C83CDE0021D66D /* WeekDayViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayViewModelTest.swift; sourceTree = "<group>"; };
+		4CDBD66B24C8570A0021D66D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4CDBD66D24C858030021D66D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4CDBD67024C85A160021D66D /* LocationManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagers.swift; sourceTree = "<group>"; };
+		4CDBD67224C8A8510021D66D /* RootViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModelTests.swift; sourceTree = "<group>"; };
+		4CDBD67524C8A9450021D66D /* MockLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationService.swift; sourceTree = "<group>"; };
+		4CDBD67724C8EEE20021D66D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4CDBD67924C8EF7C0021D66D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4CDBD67B24C8F0F00021D66D /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4C93C11424B9DDD60076ED91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDBD64624C80F2E0021D66D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				4C93C11924B9DDD60076ED91 /* Rainstorm */,
+				4CDBD64A24C80F2E0021D66D /* RainstormTests */,
 				4C93C11824B9DDD60076ED91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				4C93C11724B9DDD60076ED91 /* Rainstorm.app */,
+				4CDBD64924C80F2E0021D66D /* RainstormTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +135,10 @@
 		4C93C11924B9DDD60076ED91 /* Rainstorm */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBD66F24C85A0A0021D66D /* Managers */,
+				4C93C14C24BAED3A0076ED91 /* Protocols */,
+				4C93C14324BA0EBF0076ED91 /* Configuration */,
+				4C93C14024BA0D120076ED91 /* Models */,
 				4C93C13B24B9FA2D0076ED91 /* Extensions */,
 				4C93C13324B9E0900076ED91 /* Supporting Files */,
 				4C93C13224B9E0680076ED91 /* Resources */,
@@ -95,6 +170,7 @@
 		4C93C13024B9DEF60076ED91 /* Root View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4C93C14624BA20280076ED91 /* ViewModel */,
 				4C93C11E24B9DDD60076ED91 /* RootViewController.swift */,
 			);
 			path = "Root View Controller";
@@ -137,6 +213,7 @@
 		4C93C13524B9F7ED0076ED91 /* Day View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBD63B24C7339F0021D66D /* View Model */,
 				4C93C13624B9F8290076ED91 /* DayViewController.swift */,
 			);
 			path = "Day View Controller";
@@ -145,6 +222,9 @@
 		4C93C13824B9F8A40076ED91 /* Week View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CDBD66224C833560021D66D /* Protocol */,
+				4CDBD65D24C8265F0021D66D /* Table View Cells */,
+				4CDBD63E24C733F80021D66D /* View Models */,
 				4C93C13924B9F8BF0076ED91 /* WeekViewController.swift */,
 			);
 			path = "Week View Controller";
@@ -155,8 +235,144 @@
 			children = (
 				4C93C13C24B9FA4A0076ED91 /* UIViewController+Extension.swift */,
 				4C93C13E24B9FACE0076ED91 /* UIStoryboard+Extension.swift */,
+				4CDBD64324C7A95A0021D66D /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C93C14024BA0D120076ED91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C93C14124BA0D300076ED91 /* WeatherRequest.swift */,
+				4C93C14A24BADCB60076ED91 /* DarkSkyResponse.swift */,
+				4CDBD66B24C8570A0021D66D /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C93C14324BA0EBF0076ED91 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4C93C14424BA0ECF0076ED91 /* Configuration.swift */,
+				4CDBD64124C7A1D70021D66D /* Style.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		4C93C14624BA20280076ED91 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C93C14724BA20380076ED91 /* RootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C93C14C24BAED3A0076ED91 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4C93C14D24BAED4A0076ED91 /* WeatherData.swift */,
+				4CDBD66D24C858030021D66D /* LocationService.swift */,
+				4CDBD67724C8EEE20021D66D /* NetworkService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4CDBD63B24C7339F0021D66D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD63C24C733B70021D66D /* DayViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		4CDBD63E24C733F80021D66D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD63F24C7347F0021D66D /* WeekViewModel.swift */,
+				4CDBD66024C830570021D66D /* WeekDayViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		4CDBD64A24C80F2E0021D66D /* RainstormTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD67424C8A91F0021D66D /* Mocks */,
+				4CDBD65A24C8155A0021D66D /* Extensions */,
+				4CDBD65724C814A90021D66D /* Stubs */,
+				4CDBD65424C813580021D66D /* Test Cases */,
+				4CDBD65324C8131D0021D66D /* Supporting Files */,
+			);
+			path = RainstormTests;
+			sourceTree = "<group>";
+		};
+		4CDBD65324C8131D0021D66D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD64D24C80F2E0021D66D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CDBD65424C813580021D66D /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD65524C813990021D66D /* DayViewModelTests.swift */,
+				4CDBD66724C83AC90021D66D /* WeekViewModelTests.swift */,
+				4CDBD66924C83CDE0021D66D /* WeekDayViewModelTest.swift */,
+				4CDBD67224C8A8510021D66D /* RootViewModelTests.swift */,
+			);
+			path = "Test Cases";
+			sourceTree = "<group>";
+		};
+		4CDBD65724C814A90021D66D /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD65824C814FD0021D66D /* darksky.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		4CDBD65A24C8155A0021D66D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD65B24C8157C0021D66D /* XCTestCase.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4CDBD65D24C8265F0021D66D /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD65E24C8268E0021D66D /* WeekDayTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		4CDBD66224C833560021D66D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD66324C833750021D66D /* WeekDayRepresentable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4CDBD66F24C85A0A0021D66D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD67024C85A160021D66D /* LocationManagers.swift */,
+				4CDBD67924C8EF7C0021D66D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4CDBD67424C8A91F0021D66D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBD67524C8A9450021D66D /* MockLocationService.swift */,
+				4CDBD67B24C8F0F00021D66D /* MockNetworkService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,18 +395,41 @@
 			productReference = 4C93C11724B9DDD60076ED91 /* Rainstorm.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4CDBD64824C80F2E0021D66D /* RainstormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDBD65024C80F2E0021D66D /* Build configuration list for PBXNativeTarget "RainstormTests" */;
+			buildPhases = (
+				4CDBD64524C80F2E0021D66D /* Sources */,
+				4CDBD64624C80F2E0021D66D /* Frameworks */,
+				4CDBD64724C80F2E0021D66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDBD64F24C80F2E0021D66D /* PBXTargetDependency */,
+			);
+			name = RainstormTests;
+			productName = RainstormTests;
+			productReference = 4CDBD64924C80F2E0021D66D /* RainstormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4C93C10F24B9DDD60076ED91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "OLAJUWON BALOGUN";
 				TargetAttributes = {
 					4C93C11624B9DDD60076ED91 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					4CDBD64824C80F2E0021D66D = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+						TestTargetID = 4C93C11624B9DDD60076ED91;
 					};
 				};
 			};
@@ -208,6 +447,7 @@
 			projectRoot = "";
 			targets = (
 				4C93C11624B9DDD60076ED91 /* Rainstorm */,
+				4CDBD64824C80F2E0021D66D /* RainstormTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +463,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CDBD64724C80F2E0021D66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDBD65924C814FD0021D66D /* darksky.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -230,17 +478,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C93C14824BA20380076ED91 /* RootViewModel.swift in Sources */,
+				4C93C14224BA0D300076ED91 /* WeatherRequest.swift in Sources */,
+				4CDBD67824C8EEE20021D66D /* NetworkService.swift in Sources */,
+				4CDBD66C24C8570A0021D66D /* Location.swift in Sources */,
+				4CDBD63D24C733B80021D66D /* DayViewModel.swift in Sources */,
+				4CDBD65F24C8268F0021D66D /* WeekDayTableViewCell.swift in Sources */,
 				4C93C13D24B9FA4A0076ED91 /* UIViewController+Extension.swift in Sources */,
+				4CDBD67124C85A160021D66D /* LocationManagers.swift in Sources */,
+				4CDBD64224C7A1D70021D66D /* Style.swift in Sources */,
+				4CDBD66E24C858040021D66D /* LocationService.swift in Sources */,
 				4C93C13A24B9F8BF0076ED91 /* WeekViewController.swift in Sources */,
+				4C93C14B24BADCB60076ED91 /* DarkSkyResponse.swift in Sources */,
+				4CDBD67A24C8EF7C0021D66D /* NetworkManager.swift in Sources */,
+				4C93C14524BA0ECF0076ED91 /* Configuration.swift in Sources */,
 				4C93C11F24B9DDD60076ED91 /* RootViewController.swift in Sources */,
 				4C93C11B24B9DDD60076ED91 /* AppDelegate.swift in Sources */,
 				4C93C11D24B9DDD60076ED91 /* SceneDelegate.swift in Sources */,
+				4CDBD64424C7A95B0021D66D /* UIImage+Extension.swift in Sources */,
+				4CDBD66424C833750021D66D /* WeekDayRepresentable.swift in Sources */,
+				4CDBD66124C830570021D66D /* WeekDayViewModel.swift in Sources */,
 				4C93C13724B9F8290076ED91 /* DayViewController.swift in Sources */,
+				4C93C14E24BAED4A0076ED91 /* WeatherData.swift in Sources */,
+				4CDBD64024C7347F0021D66D /* WeekViewModel.swift in Sources */,
 				4C93C13F24B9FACE0076ED91 /* UIStoryboard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CDBD64524C80F2E0021D66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDBD67624C8A9450021D66D /* MockLocationService.swift in Sources */,
+				4CDBD67C24C8F0F00021D66D /* MockNetworkService.swift in Sources */,
+				4CDBD67324C8A8510021D66D /* RootViewModelTests.swift in Sources */,
+				4CDBD66824C83AC90021D66D /* WeekViewModelTests.swift in Sources */,
+				4CDBD65C24C8157C0021D66D /* XCTestCase.swift in Sources */,
+				4CDBD65624C813990021D66D /* DayViewModelTests.swift in Sources */,
+				4CDBD66A24C83CDE0021D66D /* WeekDayViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDBD64F24C80F2E0021D66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C93C11624B9DDD60076ED91 /* Rainstorm */;
+			targetProxy = 4CDBD64E24C80F2E0021D66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C93C12024B9DDD60076ED91 /* Main.storyboard */ = {
@@ -412,6 +699,51 @@
 			};
 			name = Release;
 		};
+		4CDBD65124C80F2E0021D66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DJALPZ89F;
+				INFOPLIST_FILE = "RainstormTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olajuwon.RainstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainstorm.app/Rainstorm";
+			};
+			name = Debug;
+		};
+		4CDBD65224C80F2E0021D66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DJALPZ89F;
+				INFOPLIST_FILE = "RainstormTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.olajuwon.RainstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainstorm.app/Rainstorm";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -429,6 +761,15 @@
 			buildConfigurations = (
 				4C93C12C24B9DDD80076ED91 /* Debug */,
 				4C93C12D24B9DDD80076ED91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDBD65024C80F2E0021D66D /* Build configuration list for PBXNativeTarget "RainstormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDBD65124C80F2E0021D66D /* Debug */,
+				4CDBD65224C80F2E0021D66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
